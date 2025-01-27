@@ -312,11 +312,11 @@ nav a.active {
     align-items: center; 
     flex-direction: row;
     background-color: #fff;
-    border-radius: 0.9375rem; /* 15px */
+    border-radius: 0.9375rem;
     overflow: hidden;
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
-    width: 3rem; /* 48px */
-    height: 3rem; /* 48px */
+    width: 3rem; 
+    height: 3rem; 
 }
 
 .fall {
@@ -325,11 +325,11 @@ nav a.active {
     align-items: center; 
     flex-direction: row;
     background-color: #fff;
-    border-radius: 0.9375rem; /* 15px */
+    border-radius: 0.9375rem; 
     overflow: hidden;
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
-    width: 3rem; /* 48px */
-    height: 3rem; /* 48px */
+    width: 3rem; 
+    height: 3rem; 
 }
 
 .arrow {
@@ -338,24 +338,24 @@ nav a.active {
     align-items: center; 
     flex-direction: row;
     background-color: #fff;
-    border-radius: 0.9375rem; /* 15px */
+    border-radius: 0.9375rem;
     overflow: hidden;
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
-    width: 3rem; /* 48px */
-    height: 3rem; /* 48px */
+    width: 3rem; 
+    height: 3rem; 
 }
 
 .oneicon {
-    margin-right: 1.875rem; /* 30px */
+    margin-right: 1.875rem; 
     display: flex;
     justify-content: center; 
     align-items: center; 
     flex-direction: row;
     background-color: #fff;
-    border-radius: 0.9375rem; /* 15px */
+    border-radius: 0.9375rem; 
     overflow: hidden;
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
-    width: 3rem; /* 48px */
+    width: 3rem; 
     height: 3rem; 
 }
 
