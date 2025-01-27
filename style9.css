@@ -615,3 +615,47 @@ h2 {
         margin-bottom: 1.25rem; /* 20px */
     }
 }
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .sidebar {
+        width: 100%;
+        margin-bottom: 1.25rem; /* 20px */
+        border-radius: 0.5rem; /* Adjusted radius for smaller screens */
+        padding: 1rem; /* Smaller padding */
+    }
+
+    .main-content {
+        padding: 1rem;
+    }
+
+    .search-bar {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .search-bar {
+        width: 100%;
+        margin-bottom: 1rem; /* Add spacing below the search bar */
+        height: 2.5rem; /* Slightly smaller for compact screens */
+    }
+
+    nav a {
+        font-size: 0.875rem; /* Reduced font size for smaller screens */
+    }
+
+    .add-project-btn {
+        font-size: 0.875rem; /* Adjust button font size */
+        padding: 0.5rem 0.75rem; /* Adjust button padding */
+    }
+}
