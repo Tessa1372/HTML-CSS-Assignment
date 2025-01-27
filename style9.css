@@ -659,3 +659,23 @@ h2 {
         padding: 0.5rem 0.75rem; /* Adjust button padding */
     }
 }
+
+@media (max-width: 320px) {
+    .container {
+        width: 100%;
+        padding: 0.5rem;
+    }
+
+    .sidebar {
+        padding: 0.5rem;
+    }
+
+    nav a {
+        font-size: 0.625rem; /* Smallest font for very compact devices */
+    }
+
+    .search-bar {
+        height: 2rem; /* Reduce height further */
+        padding: 0.5rem;
+    }
+}
